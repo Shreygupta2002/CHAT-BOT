@@ -1,0 +1,40 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay","Yo","Good Morning","Good Evening","Hii"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye","Leave me alone","quit","Quit","See ya","Go away", "Fuck you", "Bad"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help","Great","Wow","You are great","Thank you for your help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?","what is your name", "what should I call you", "whats your name?"],
+     "responses": ["I'm World Classic, your bot assistant", "I'm World Classic, an Artificial Intelligent bot"]
+    },
+    {"tag": "company",
+      "patterns": ["Tell me something about the company?","Who is my boss?","Which company is offering this job?"
+      ,"Company?","Which company?"],
+      "responses": []
+    },
+    {"tag": "location",
+      "patterns": ["Where is the job?","Where i have to work?","What is the job location?","Work Location?","Location?",
+        "Work from home?"],
+      "responses": []
+    },
+    {"tag": "application",
+      "patterns": ["Can you help me in application procedure?","How to apply for this job?","What to do to join?","application?","application procedure?"],
+      "responses": []
+    },
+    {"tag": "salary",
+      "patterns": ["What is the payscale?","What will i get paid","What will be the salary?","Salary?","How much will i get?",
+      "What will i get?","How much will i be paid?","Is it paid job?","Payscale?","Stipend?","what will be the stipend for the job?"],
+      "responses": []},
+    {"tag": "duration",
+      "patterns": ["Is it Full Time?","Is is Part-Time?","Is is internship?","What is the Duration?","Duration?","Duration of the job?"],
+      "responses": []}
+]
+}
